@@ -2,12 +2,15 @@
 
 Swift framework for interfacing with APIs that implement [simple-hmac-auth](https://github.com/jessety/simple-hmac-auth).
 
+[![ci](https://github.com/jessety/simple-hmac-auth-swift/workflows/ci/badge.svg)](https://github.com/jessety/simple-hmac-auth-swift/actions)
+[![license](https://img.shields.io/github/license/jessety/simple-hmac-auth-swift.svg)](https://github.com/jessety/simple-hmac-auth-swift/blob/main/LICENSE)
+
 ## Usage
 
 ```swift
 import SimpleHMACAuth
 
-// Instansiate the class
+// Instantiate the class
 
 let simpleHMAC = SimpleHMACAuth(apiKey: "API_KEY", secret: "SECRET")
 
