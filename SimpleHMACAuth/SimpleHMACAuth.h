@@ -2,7 +2,7 @@
 //  SimpleHMACAuth.h
 //  SimpleHMACAuth
 //
-//  Created by Jesse T Youngblood on 4/15/20.
+//  Created by Jesse Youngblood on 4/15/20.
 //  Copyright © 2020 Jesse Youngblood. All rights reserved.
 //
 
@@ -15,5 +15,3 @@ FOUNDATION_EXPORT double SimpleHMACAuthVersionNumber;
 FOUNDATION_EXPORT const unsigned char SimpleHMACAuthVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SimpleHMACAuth/PublicHeader.h>
-
-

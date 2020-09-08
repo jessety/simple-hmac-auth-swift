@@ -7,16 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		885BE2F02501B23800D55A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE2EF2501B23800D55A6D /* AppDelegate.swift */; };
+		885BE2F22501B23800D55A6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE2F12501B23800D55A6D /* SceneDelegate.swift */; };
+		885BE2F42501B23800D55A6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885BE2F32501B23800D55A6D /* ContentView.swift */; };
+		885BE2F62501B23D00D55A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BE2F52501B23D00D55A6D /* Assets.xcassets */; };
+		885BE2F92501B23D00D55A6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885BE2F82501B23D00D55A6D /* Preview Assets.xcassets */; };
+		885BE2FC2501B23D00D55A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885BE2FA2501B23D00D55A6D /* LaunchScreen.storyboard */; };
+		885BE3022502846300D55A6D /* SimpleHMACAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C695CC24480224001202C2 /* SimpleHMACAuth.framework */; };
 		88C695D124480224001202C2 /* SimpleHMACAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C695CF24480224001202C2 /* SimpleHMACAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C695D8244802A7001202C2 /* SimpleHMACAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C695D7244802A7001202C2 /* SimpleHMACAuth.swift */; };
+		88C695E22448A7E7001202C2 /* SimpleHMACAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C695CC24480224001202C2 /* SimpleHMACAuth.framework */; };
+		88C695E92448A90D001202C2 /* SimpleHMACAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C695E82448A90D001202C2 /* SimpleHMACAuthTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		88C695E32448A7E7001202C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88C695C324480224001202C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88C695CB24480224001202C2;
+			remoteInfo = SimpleHMACAuth;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		885BE2ED2501B23800D55A6D /* SimpleHMACAuthExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleHMACAuthExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885BE2EF2501B23800D55A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		885BE2F12501B23800D55A6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		885BE2F32501B23800D55A6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		885BE2F52501B23D00D55A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885BE2F82501B23D00D55A6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		885BE2FB2501B23D00D55A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		885BE2FD2501B23D00D55A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885BE3032507DCD600D55A6D /* SimpleHMACAuthExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SimpleHMACAuthExample.entitlements; sourceTree = "<group>"; };
+		885BE3062507E62A00D55A6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../GitHub/Personal/simple-hmac-auth-swift/README.md"; sourceTree = "<group>"; };
 		88C695CC24480224001202C2 /* SimpleHMACAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleHMACAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88C695CF24480224001202C2 /* SimpleHMACAuth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleHMACAuth.h; sourceTree = "<group>"; };
 		88C695D024480224001202C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C695D7244802A7001202C2 /* SimpleHMACAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHMACAuth.swift; sourceTree = "<group>"; };
+		88C695DD2448A7E7001202C2 /* SimpleHMACAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleHMACAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88C695E12448A7E7001202C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88C695E82448A90D001202C2 /* SimpleHMACAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHMACAuthTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		885BE2EA2501B23800D55A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BE3022502846300D55A6D /* SimpleHMACAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88C695C924480224001202C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,14 +66,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		88C695DA2448A7E7001202C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C695E22448A7E7001202C2 /* SimpleHMACAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		885BE2EE2501B23800D55A6D /* SimpleHMACAuthExample */ = {
+			isa = PBXGroup;
+			children = (
+				885BE3032507DCD600D55A6D /* SimpleHMACAuthExample.entitlements */,
+				885BE2EF2501B23800D55A6D /* AppDelegate.swift */,
+				885BE2F12501B23800D55A6D /* SceneDelegate.swift */,
+				885BE2F32501B23800D55A6D /* ContentView.swift */,
+				885BE2F52501B23D00D55A6D /* Assets.xcassets */,
+				885BE2FA2501B23D00D55A6D /* LaunchScreen.storyboard */,
+				885BE2FD2501B23D00D55A6D /* Info.plist */,
+				885BE2F72501B23D00D55A6D /* Preview Content */,
+			);
+			path = SimpleHMACAuthExample;
+			sourceTree = "<group>";
+		};
+		885BE2F72501B23D00D55A6D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				885BE2F82501B23D00D55A6D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		885BE3012502846300D55A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		88C695C224480224001202C2 = {
 			isa = PBXGroup;
 			children = (
+				885BE3062507E62A00D55A6D /* README.md */,
 				88C695CE24480224001202C2 /* SimpleHMACAuth */,
+				88C695DE2448A7E7001202C2 /* SimpleHMACAuthTests */,
+				885BE2EE2501B23800D55A6D /* SimpleHMACAuthExample */,
 				88C695CD24480224001202C2 /* Products */,
+				885BE3012502846300D55A6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +123,8 @@
 			isa = PBXGroup;
 			children = (
 				88C695CC24480224001202C2 /* SimpleHMACAuth.framework */,
+				88C695DD2448A7E7001202C2 /* SimpleHMACAuthTests.xctest */,
+				885BE2ED2501B23800D55A6D /* SimpleHMACAuthExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,8 +134,18 @@
 			children = (
 				88C695CF24480224001202C2 /* SimpleHMACAuth.h */,
 				88C695D024480224001202C2 /* Info.plist */,
+				88C695D7244802A7001202C2 /* SimpleHMACAuth.swift */,
 			);
 			path = SimpleHMACAuth;
+			sourceTree = "<group>";
+		};
+		88C695DE2448A7E7001202C2 /* SimpleHMACAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				88C695E82448A90D001202C2 /* SimpleHMACAuthTests.swift */,
+				88C695E12448A7E7001202C2 /* Info.plist */,
+			);
+			path = SimpleHMACAuthTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +162,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		885BE2EC2501B23800D55A6D /* SimpleHMACAuthExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885BE2FE2501B23D00D55A6D /* Build configuration list for PBXNativeTarget "SimpleHMACAuthExample" */;
+			buildPhases = (
+				885BE2E92501B23800D55A6D /* Sources */,
+				885BE2EA2501B23800D55A6D /* Frameworks */,
+				885BE2EB2501B23800D55A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleHMACAuthExample;
+			productName = SimpleHMACAuthExample;
+			productReference = 885BE2ED2501B23800D55A6D /* SimpleHMACAuthExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 		88C695CB24480224001202C2 /* SimpleHMACAuth */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88C695D424480224001202C2 /* Build configuration list for PBXNativeTarget "SimpleHMACAuth" */;
@@ -84,16 +197,42 @@
 			productReference = 88C695CC24480224001202C2 /* SimpleHMACAuth.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		88C695DC2448A7E7001202C2 /* SimpleHMACAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C695E52448A7E7001202C2 /* Build configuration list for PBXNativeTarget "SimpleHMACAuthTests" */;
+			buildPhases = (
+				88C695D92448A7E7001202C2 /* Sources */,
+				88C695DA2448A7E7001202C2 /* Frameworks */,
+				88C695DB2448A7E7001202C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88C695E42448A7E7001202C2 /* PBXTargetDependency */,
+			);
+			name = SimpleHMACAuthTests;
+			productName = SimpleHMACAuthTests;
+			productReference = 88C695DD2448A7E7001202C2 /* SimpleHMACAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		88C695C324480224001202C2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Jesse Youngblood";
 				TargetAttributes = {
+					885BE2EC2501B23800D55A6D = {
+						CreatedOnToolsVersion = 11.7;
+					};
 					88C695CB24480224001202C2 = {
+						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
+					};
+					88C695DC2448A7E7001202C2 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -112,12 +251,31 @@
 			projectRoot = "";
 			targets = (
 				88C695CB24480224001202C2 /* SimpleHMACAuth */,
+				88C695DC2448A7E7001202C2 /* SimpleHMACAuthTests */,
+				885BE2EC2501B23800D55A6D /* SimpleHMACAuthExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		885BE2EB2501B23800D55A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BE2FC2501B23D00D55A6D /* LaunchScreen.storyboard in Resources */,
+				885BE2F92501B23D00D55A6D /* Preview Assets.xcassets in Resources */,
+				885BE2F62501B23D00D55A6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88C695CA24480224001202C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C695DB2448A7E7001202C2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -127,16 +285,100 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		885BE2E92501B23800D55A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885BE2F02501B23800D55A6D /* AppDelegate.swift in Sources */,
+				885BE2F22501B23800D55A6D /* SceneDelegate.swift in Sources */,
+				885BE2F42501B23800D55A6D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		88C695C824480224001202C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88C695D8244802A7001202C2 /* SimpleHMACAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88C695D92448A7E7001202C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C695E92448A90D001202C2 /* SimpleHMACAuthTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		88C695E42448A7E7001202C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88C695CB24480224001202C2 /* SimpleHMACAuth */;
+			targetProxy = 88C695E32448A7E7001202C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885BE2FA2501B23D00D55A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885BE2FB2501B23D00D55A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		885BE2FF2501B23D00D55A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleHMACAuthExample/SimpleHMACAuthExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleHMACAuthExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimpleHMACAuthExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseyoungblood.SimpleHMACAuthExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885BE3002501B23D00D55A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SimpleHMACAuthExample/SimpleHMACAuthExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleHMACAuthExample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SimpleHMACAuthExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseyoungblood.SimpleHMACAuthExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		88C695D224480224001202C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -195,6 +437,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -251,6 +494,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -260,9 +504,10 @@
 		88C695D524480224001202C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B6YS9FS9YA;
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -276,6 +521,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jesseyoungblood.SimpleHMACAuth;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,9 +530,10 @@
 		88C695D624480224001202C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = B6YS9FS9YA;
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -305,9 +552,56 @@
 			};
 			name = Release;
 		};
+		88C695E62448A7E7001202C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
+				INFOPLIST_FILE = SimpleHMACAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseyoungblood.SimpleHMACAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C695E72448A7E7001202C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YFN5M9VM9;
+				INFOPLIST_FILE = SimpleHMACAuthTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesseyoungblood.SimpleHMACAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		885BE2FE2501B23D00D55A6D /* Build configuration list for PBXNativeTarget "SimpleHMACAuthExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885BE2FF2501B23D00D55A6D /* Debug */,
+				885BE3002501B23D00D55A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88C695C624480224001202C2 /* Build configuration list for PBXProject "SimpleHMACAuth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -322,6 +616,15 @@
 			buildConfigurations = (
 				88C695D524480224001202C2 /* Debug */,
 				88C695D624480224001202C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C695E52448A7E7001202C2 /* Build configuration list for PBXNativeTarget "SimpleHMACAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C695E62448A7E7001202C2 /* Debug */,
+				88C695E72448A7E7001202C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
